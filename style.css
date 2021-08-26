@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    justify-items: auto;
+}
+body {
+    background-color: #0d1117;
+   
+}
+header#cabeça{
+    text-align: center;
+}
+header#conteudocabeça{
+    margin-top: 30px;
+    text-align: center;
+}
+main#conteudo{
+    text-align: center;
+    
+}
+main > header > h1{
+    margin-top: 28px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -.5px;
+}
+main#corpoconteudo{
+    width: 100vw;
+    height: 52vh;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#corpoconteudo2{
+    margin-top: -70px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 300px;
+    height: 230px;
+    background: #161b22;
+    border-radius: 6px;
+    border-top: 1px solid #21262d;   
+}
+p{
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#email{
+    margin-left: 13px;
+    height: 29px;
+    text-indent: 10px;
+    border-radius: 6px;
+    background-color: #0d1117;
+    border: 1px solid #21262d;
+    color: white;
+} #email:focus{
+    border-color:#388bfd;
+    box-shadow: 1px 1px 1px #58a6ff;
+    outline: none;
+}
+#sn{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+#esqsenha1{
+    margin-left: 119.9px;
+}
+#esqsenha2{
+    color: rgb(55, 160, 226);
+    text-decoration: none;
+    font-size: 11px;
+} #esqsenha2:hover{
+    text-decoration: underline;
+}
+#senha{
+    margin-left: 15px;
+    height: 29px;
+    text-indent: 10px;
+    border-radius: 6px;
+    background-color: #0d1117;
+    border: 1px solid #21262d;
+    color: white;
+}#senha:focus{
+    border-color:#388bfd;
+    box-shadow: 1px 1px 1px #58a6ff;
+    outline: none;
+}
+#entrar{
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    width: 270px;
+    height: 33px;
+    text-align: center;
+    background-color: #238636;
+    color: white;
+    border: none;
+    cursor: pointer;
+}#entrar:hover{
+    background-color: #27993e;
+}
+
+#cabeçafinal1 {
+    margin-top: -70px;
+    text-align: center;
+}
+#cabeçafinal2 {
+    text-decoration: none;
+    color: rgb(55, 160, 226);
+} #cabeçafinal2:hover{
+    text-decoration: underline;
+    color: rgb(55, 160, 226);
+    cursor: pointer;
+}
+#geralrodape{
+    margin-top: 110px;
+}
+#roda1{
+    color: rgb(55, 160, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 6px;
+    font-size: 12px;
+}#roda1:hover{
+    text-decoration: underline;
+}
+#roda2{
+    color: #8b949e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 6px;
+    font-size: 11.9px;
+}#roda2:hover{
+    color: rgb(55, 160, 226);
+    text-decoration: underline;
+}
