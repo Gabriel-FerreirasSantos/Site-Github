@@ -18,7 +18,7 @@
 ## 👷 Como rodar  
 ```
 # Clonar o repositório
- gh repo clone Gabriel-FerreirasSantos/Site-Github
+ git clone Gabriel-FerreirasSantos/Site-Github
   
 # Entrar numa IDE de sua preferência
 ```
