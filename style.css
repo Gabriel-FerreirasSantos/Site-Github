@@ -12,7 +12,7 @@ header#cabeça{
     text-align: center;
 }
 header#conteudocabeça{
-    margin-top: 30px;
+    margin-top: 90px;
     text-align: center;
 }
 main#conteudo{
@@ -21,6 +21,7 @@ main#conteudo{
 }
 main > header > h1{
     margin-top: 28px;
+    margin-bottom: 20px;
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -51,10 +52,16 @@ main#corpoconteudo{
 p{
     color: white;
     text-align: center;
-    margin-right: 15px;
     display: block;
-    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#corpoconteudo2 > p{
+    color: white;
+    margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -115,7 +122,6 @@ p{
 }
 
 #cabeçafinal1 {
-    margin-top: -70px;
     text-align: center;
 }
 #cabeçafinal2 {
@@ -125,9 +131,6 @@ p{
     text-decoration: underline;
     color: rgb(55, 160, 226);
     cursor: pointer;
-}
-#geralrodape{
-    margin-top: 110px;
 }
 #roda1{
     color: rgb(55, 160, 226);
